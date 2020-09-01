@@ -1,13 +1,49 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.contentArtist img {
+  width: 200px;
+  border-radius: 10%;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+  transition: all 0.5s ease-in-out;
+}
+.contentArtist img:hover {
+  transform: translateY(-10px);
+}
+.contentArtistDescription {
+  width: 600px;
+  text-align: center;
+}
+/*COLORES PERSONALIZADOS*/
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #38b6ff !important;
+  border-width: 2px !important;
+}
+.MuiInputLabel-root.Mui-focused {
+  color: #38b6ff !important;
+}
+.MuiButton-contained {
+  background-color: #38b6ff !important;
+}
+.buttonAtras {
+  color: #fff !important;
+  background-color: #38b6ff !important;
+}
+.buttonAtras:hover {
+  background-color: #319bd8 !important;
+}
+a {
+  text-decoration: none;
 }

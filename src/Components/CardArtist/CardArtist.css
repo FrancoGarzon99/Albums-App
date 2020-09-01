@@ -1,0 +1,30 @@
+.item {
+  /* border-radius: 10%; */
+  padding: 10px 10px;
+  width: 160px;
+  height: 160px;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+}
+.pic {
+  width: 160px;
+  border-radius: 10%;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+.item:hover {
+  transform: translateY(-10px);
+}
+.titulo {
+  font-size: 18px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px #000000;
+  overflow: hidden;
+  text-align: center;
+  margin-top: -90px;
+  font-weight: 900;
+}
+.contentImg {
+  margin: 10px 30px;
+}
